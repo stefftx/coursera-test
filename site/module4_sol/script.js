@@ -52,7 +52,6 @@ for ( var i in names) {
   // to lower case character 'j' afterwards.
   // Look up these methods on Mozilla Developer Network web site if needed.
   var firstLetter = (name.toLowerCase()).charAt(0);
-  console.log("Name " + name + " First Letter " +firstLetter);
   // STEP 12:
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
